@@ -53,4 +53,4 @@ Use a production WSGI server instead.
 <img width="960" alt="2021-02-22 (4)" src="https://user-images.githubusercontent.com/50978411/108753626-a8366200-754d-11eb-9794-99ed75dfd0e6.png">
 
 
-#### Have fun using web map program!
+#### Have fun using Twitter friends map program!
