@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <h1>Enter your twitter account screenname and bearer token</h1>
+    <form action="/register" method="post">
+        <input autocomplete="off" autofocus name="name" placeholder="Account Name" type="text">
+        <input autocomplete="off" autofocus name="bearer token" placeholder="Bearer token" type="text">
+        <input type="submit" value="See the friends map!">
+    </form>
+
+    <script>
+
+        document.querySelector('form').onsubmit = function() {
+            if (!document.querySelector('input').value) {
+                alert('You must provide your name!');
+                return false;
+            }
+            else if (!document.querySelector('input').value) {
+                alert('You must provide your bearer token!');
+                return false;
+            }
+            return true;
+        };
+
+    </script>
+
+{% endblock %}
